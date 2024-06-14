@@ -1,5 +1,5 @@
 # NLP_Project
-Sentiment Analysis, Topic Modeling, and Honesty Classification with Presidential Debates 2024
+Sentiment Analysis and Topic Modeling with Presidential Debates 2024
 
 Introduction: In recent years, there has been a growing fascination with leveraging the capabilities of NLP and AI techniques to forecast election outcomes. This interest spans diverse methodologies including sentiment analysis, fake news identification, fact-checking, and topic modeling. Advanced models intertwine deep learning with foundational statistical approaches. Our study delves into the thematic fabric of primary Presidential campaign debates, employing sentiment analysis to gauge the emotional tone of each speech, organizing sentiments by respective candidates. Additionally, we explore topic modeling and honesty classification among candidates. Our goal involves thoroughly analyzing these debates using a wide range of ML and NLP techniques. This encompasses various practices like topic modeling, sentiment analysis, and text classification among others.
 

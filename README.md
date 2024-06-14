@@ -6,12 +6,7 @@ Introduction: In recent years, there has been a growing fascination with leverag
 Data Collection & Preprocessing:
 Data collection was carried out by scraping the transcript of the three Republican Presidential Debates into CSV files and creating a combined dataset with all three debates and an indicator variable for which debate the statement came from.
 For precision, our analysis excludes the speeches of moderators to ensure a focused dataset aligned with the original topics discussed. We specifically focus on the candidates participating in all three debate rounds.
-To preprocess the data and ensure quality analysis we used:
-	Tokenization
-	Lowercasing
-	Punctuation and Numbers Removal
-	Stop Words Removal
-	Lemmatization
+To preprocess the data and ensure quality analysis we used: Tokenization, Lowercasing, Punctuation and Numbers Removal, Stop Words Removal and Lemmatization
 
 Topic Modelling:
 Our project delves into the realm of topic modeling, a powerful method for uncovering concealed themes within extensive text datasets. Techniques such as LSA, PLSA, and the widely popular LDA serve to reveal abstract topics by scrutinizing distributions of words and topics within documents. LDA, particularly favored, has proven its worth in various fields like software engineering and political science, offering valuable insights that span scientific content analysis, sentiment evaluation, and financial domains.
@@ -32,7 +27,6 @@ D.	Tim Scott
 While immigration is a high-profile issue in the United States, only Tim Scott and Vivek Ramaswamy have an explicitly immigration-related word on their most frequently used list. Scott frequently used both “border”, “America”, and “country”, suggesting that he is particularly focused on migration into the US. Additionally, his high use of “Biden” suggests that he may have been raising immigration as a way to lodge a critique at current President Biden. Tim Scott has not stepped out of the primary race. However, his participation in the debates is still useful for demonstrating that a high focus on immigration throughout all three debates was not a winning strategy for this particular candidate, despite its salience to the Republican Party.
 E.	Vivek Ramaswamy
 Vivek Ramaswamy, like Tim Scott, frequently used the word “border”, however, he also frequently used “China” rather than “America”. Like Nikki Haley, he may be particularly interested in foreign affairs. However, unlike Nikki Haley, who focused entirely on countries in her most frequently used words, Ramaswamy’s high use of the word “border” suggests that he is particularly interested in immigration. Additionally, his use of “think”, “want”, and “people” far and above other words suggests that Ramaswamy may be relying on populist rhetoric for his campaign.
-![image](https://github.com/MaliNLPStudio/NLP_Project/assets/172141239/81f388c0-37d6-422d-9fa2-5ceebc5084f5)
 
 Sentiment Analysis:
 Our project also explores sentiment analysis, a technique pivotal in categorizing sentiments as positive, negative, or neutral, offering crucial insights into aligning information with entities. While recent advancements in machine learning and deep learning have bolstered sentiment analysis algorithms, the labor-intensive nature of manually classifying sentiment words remains a challenge.
@@ -41,5 +35,3 @@ Our project included an exhaustive sentiment analysis and misinformation detecti
 Simultaneously, we addressed the challenge of misinformation detection, utilizing a labeled dataset that distinguished between fake and real news. After preprocessing steps like handling missing values and splitting the data into training and test sets, we crafted a machine learning pipeline amalgamating a TF-IDF vectorizer with an SVM classifier, a proven approach in text classification. The classifier was trained on the training data and subsequently employed to predict labels on the test set, culminating in a comprehensive classification report assessing its performance.
 Applying this trained misinformation detection model to our dataset allowed us to assign predicted labels to each text, creating a summary of the “honesty” of each speaker based on the proportion of their texts classified as real or fake news. This dual approach, embracing both sentiment analysis and misinformation detection, yielded a comprehensive perspective on the textual data, providing insights into both the emotional tenor and the factual reliability of the content.
 Our analysis revealed a pervasive negativity across topics and candidates during the Republican debates, consistent with sentiment analysis findings. Despite minor variations, the sentiment analysis identified all candidates as consistently expressing highly negative sentiments throughout the three debates. Notably, Nikki Haley’s comments garnered the most negative classification, while Vivek Ramaswamy and Tim Scott exhibited relatively less negativity. Overall, the Republican debates depicted a predominantly negative outlook on American affairs, reflecting the sentiment prevalent in the debates.
-
-
